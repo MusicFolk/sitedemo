@@ -8,7 +8,7 @@ function Message() {
     <div className="message">
       <div className="card">
         <div className="teddy" aria-hidden>
-          <img src="/teddy.png" alt="Teddy bear holding a heart" className="teddy-img" />
+          <img src={`${import.meta.env.BASE_URL}teddy.png`} alt="Teddy bear holding a heart" className="teddy-img" />
         </div>
         <h1 className="question">Ar būsi mano Valentino pora?</h1>
 
